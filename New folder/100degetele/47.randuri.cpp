@@ -8,7 +8,7 @@ pentru n=4 se afiseaza
 13 14 15 16
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()

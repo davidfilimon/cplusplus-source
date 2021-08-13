@@ -7,7 +7,7 @@ pt p=12 se obtin tripletele:
 */
 
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()

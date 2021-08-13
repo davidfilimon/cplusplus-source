@@ -4,7 +4,7 @@ Exemple: pentru n=2 a=6 b=35 se vor afisa valorile 8 si 16
 pentru n=2 a=24 b=55 se va afisa valoarea 32.
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()

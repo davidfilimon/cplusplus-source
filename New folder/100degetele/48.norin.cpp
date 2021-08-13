@@ -7,7 +7,7 @@ Pentru un numar natural n citit de la tastatura sa se afiseze n*n numere astfel:
 n n+1 n+2 ... 2n-1
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
