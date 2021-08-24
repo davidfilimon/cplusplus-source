@@ -19,7 +19,7 @@ int main()
 		
 		cout << n / 6 << " " << n / 3 << " " << n / 2;
 	
-    else cout<< "nu exista";
+    else cout << "nu exista";
 	
     return 0;
 }

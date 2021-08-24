@@ -12,7 +12,7 @@ Proiectați un algoritm eficient din punctul de vedere al spațiului de memorie 
 timpului de executare.
 Exemplu: dacă fişierul bac.txt conţine valorile
 1 2 3 4 6 10 2 8 5 7 9 4 6 10 121 20 4 11 10 2 5 2 6 8 10 16
-se afişează pe ecran numărul 2.
+se afişează pe ecran numărul 5.
 a) Descrieţi în limbaj natural algoritmul proiectat, justificând eficienţa acestuia.
 b) Scrieţi programul C/C++ corespunzător algoritmului descris. 
 */
@@ -37,7 +37,7 @@ int main()
             l=0;
         }
     }
-    if(l >= 2) c++;
+    if (l >= 2) c++;
 	
     cout << c;
 	

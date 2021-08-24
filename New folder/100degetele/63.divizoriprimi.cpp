@@ -27,30 +27,32 @@ int main()
 			
             {
                 c++;
-                while(x % d == 0) x = x/d;
+				
+                while (x % d == 0) x = x/d;
             }
+			
             else d++;
 			
         if (c > max) max = c;
 		
     }
 	
-    for (int n=a; n<=b; n++)
+    for (int n = a; n <= b; n++)
 	
     {
 	
         int c = 0;
         int x = n, d = 2;
 		
-        while(x > 1)
+        while (x > 1)
 		
-            if(x % d == 0)
+            if (x % d == 0)
 			
             {
 			
                 c++;
 				
-                while(x % d == 0) x = x / d;
+                while (x % d == 0) x = x / d;
 				
             }
 			

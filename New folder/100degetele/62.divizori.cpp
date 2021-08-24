@@ -10,27 +10,27 @@ using namespace std;
 
 int main()
 {
-    int n=0, a, b;
+    int n = 0, a, b;
 	
-    cin>> a >> b;
+    cin >> a >> b;
 	
     int x = sqrt(a), y = sqrt(b);
 	
-    if(sqrt(a) != floor(sqrt(a))) x++;
+    if (sqrt(a) != floor(sqrt(a))) x++
 	
-    for(int i=x; i<=y; i++)
+    for (int i  = x; i <= y; i++)
 	
     {
 	
         int p = 1;
 		
-        if(i == 0 || i == 1) p = 0;
+        if (i == 0 || i == 1) p = 0;
 		
-        else if(i % 2 == 0 && i > 2) p = 0;
+        else if (i % 2 == 0 && i > 2) p = 0;
 		
-             else for(int d = 3; d * d <= i; d = d + 2)
+             else for (int d = 3; d * d <= i; d = d + 2)
 			 
-                        if(i % d == 0) p = 0;
+                        if (i % d == 0) p = 0;
 						
         if (p) n++;
     }
