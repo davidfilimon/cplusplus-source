@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-    int n,x,d;
+    int n, x, d;
 	
     cout<< "n=";
 	

@@ -42,7 +42,9 @@ int main()
 			
                     if (y % i == 0) py = 0;
 					
-            if (c == 1 && px == 0 && py == 0) cout << x << " " << y << endl;
+            if (c == 1 && px == 0 && py == 0)
+				
+				cout << x << " " << y << endl;
 			
         }
 		

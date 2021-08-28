@@ -22,9 +22,9 @@ int main()
 		
         while (y > 0)
             {
-                r=r*10+y%10;
+                r = r * 10 + y % 10;
 				
-                y=y/10;
+                y = y / 10;
             }
         if (x == r)
 		

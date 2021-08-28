@@ -1,6 +1,7 @@
 /*
 Se citesc un numar natural n si o cifra c. Eliminati toate aparitiile cifrei c din numarul n si afisati numarul astfel obtinut.
 Exemplu: n= 2345324 , c=2 rezulta numarul 34534
+*/
 
 #include <iostream>
 using namespace std;
@@ -15,12 +16,13 @@ int main()
     cout << "c=";
 	cin >> c;
 	
-    while(n != 0)
+    while (n != 0)
     {
-        if(n % 10 != c)
+        if (n % 10 != c)
         {
             x = x + n % 10 * p;
             p = p * 10;
+			cout << x << endl;
         }
 		
         n = n / 10;
