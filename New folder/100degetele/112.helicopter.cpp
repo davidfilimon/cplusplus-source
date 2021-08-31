@@ -25,7 +25,7 @@ void dance_pipe(int px, int py);
 
 void main();
 void play();
-void drawMenu ( int selected , int defCol , int selCol ) ;
+void drawMenu (int selected, int defCol, int selCol) ;
 void start(int i);
 int main_menu();
 
